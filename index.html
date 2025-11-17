@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title |>محمد شريف MOHAMED SHERIF</title>
+
+    <!-- مكتبة الأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+
+       body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #2c146c, #000000e4);
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* الحركة العامة عند الدخول */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideIn 1.2s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 25px rgba(255,255,255,0.5);
+}
+
+/* الروابط */
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: flex;
+    flex-direction: row-reverse; /* لضبط مكان الأيقونة */
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 320px;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 40px;
+    background: rgba(0,0,0,0.25);
+    transition: 0.4s ease;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+/* تكبير عند المرور */
+.social-icons a:hover {
+    transform: scale(1.07);
+    background: rgba(0,0,0,0.4);
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+/* زر العهد */
+.btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00c6ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.btn:hover {
+    transform: scale(1.08);
+    background-color: #0072ff;
+}
+    </style>
+</head>
+
+<body>
+
+<img src="zixss7.jpg" class="profile-img fade-in" alt="صورة محمد شريف">
+
+    <h1 class="fade-in">محمد شريف | Mohamed Sherif</h1>
+
+    <div class="social-icons fade-in">
+        <a href="https://www.facebook.com/share/19vm57fvEY/" target="_blank">
+            Facebook <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/zixss7?igsh=cHNoc3gwbWJ5Z2xl" target="_blank">
+            Instagram <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@zixss7?_r=1&_t=ZM-91SB3SS70FX" target="_blank">
+            TikTok <i class="fab fa-tiktok"></i>
+        </a>
+
+        <a href="https://t.me/+218919585341" target="_blank">
+            Telegram <i class="fab fa-telegram"></i>
+        </a>
+    </div>
+
+</body>
+</html>
